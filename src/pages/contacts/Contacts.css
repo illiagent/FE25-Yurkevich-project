@@ -1,0 +1,65 @@
+.contact {
+  padding-top: 108px;
+}
+
+.title__description--contact {
+  margin-bottom: 80px;
+}
+
+.contact__form {
+  display: flex;
+  margin: 0 auto 80px;
+  flex-wrap: wrap;
+}
+
+.contact__left {
+  width: calc(50% - 35px);
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__right {
+  width: calc(50% - 35px);
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.contact__left input {
+  max-width: 530px;
+  height: 30px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.contact__right textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+}
+
+.contact__textarea {
+  padding: 0;
+  padding-left: 15px;
+}
+
+.contact__left .contact__subject {
+  margin-bottom: 0;
+}
+
+.contact__submit {
+  width: 100%;
+  margin: 43px auto 0;
+  text-align: center;
+  width: 148px;
+  height: 45px;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #ff9b51;
+  border-radius: 5px;
+  padding: 15px auto;
+  border: 1px solid #ff9b51;
+}

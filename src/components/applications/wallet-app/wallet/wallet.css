@@ -1,0 +1,12 @@
+.wallet {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.wallet__display {
+  width: 100%;
+}
+
+.wallet__editor {
+  width: 100%;
+}

@@ -1,0 +1,37 @@
+.footer {
+  height: 100px;
+  background-color: black;
+  padding-top: 38px;
+  display: flex;
+  justify-content: center;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.footer__icons {
+  margin-bottom: 15px;
+}
+
+.footer__icons .brand__icon {
+  color: #cccccc;
+  font-family: "Font Awesome";
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 30px 0 0;
+  line-height: 24px;
+}
+
+.brand__icon.brand__icon--footer:last-child {
+  margin-right: 0;
+}
+
+.footer__copyright {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  line-height: 12px;
+}
